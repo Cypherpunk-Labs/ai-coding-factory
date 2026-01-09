@@ -1,6 +1,6 @@
 import type { Plugin } from "@opencode-ai/plugin";
 
-export const DependencyCheckPlugin: Plugin = async ({ project, client, $ }) => {
+const DependencyCheckPlugin: Plugin = async ({ project, client, $ }) => {
   return {
     "tool.execute.after": async (input, output) => {
       if (input.tool === "bash" && output.args.command.includes("dotnet restore")) {
@@ -14,3 +14,5 @@ export const DependencyCheckPlugin: Plugin = async ({ project, client, $ }) => {
     },
   };
 };
+
+export default DependencyCheckPlugin;

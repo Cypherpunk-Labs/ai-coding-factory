@@ -1,6 +1,6 @@
 import type { Plugin } from "@opencode-ai/plugin";
 
-export const SonarQubePlugin: Plugin = async ({ project, client, $ }) => {
+const SonarQubePlugin: Plugin = async ({ project, client, $ }) => {
   return {
     "tool.execute.after": async (input, output) => {
       if (input.tool === "bash" && output.args.command.includes("dotnet test")) {
@@ -16,3 +16,5 @@ export const SonarQubePlugin: Plugin = async ({ project, client, $ }) => {
     },
   };
 };
+
+export default SonarQubePlugin;

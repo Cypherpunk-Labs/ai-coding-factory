@@ -1,6 +1,6 @@
 import type { Plugin } from "@opencode-ai/plugin";
 
-export const CICDOrchestratorPlugin: Plugin = async ({ project, client, $ }) => {
+const CICDOrchestratorPlugin: Plugin = async ({ project, client, $ }) => {
   return {
     "file.edited": async (input, output) => {
       const criticalFiles = [
@@ -13,3 +13,5 @@ export const CICDOrchestratorPlugin: Plugin = async ({ project, client, $ }) => 
     },
   };
 };
+
+export default CICDOrchestratorPlugin;
