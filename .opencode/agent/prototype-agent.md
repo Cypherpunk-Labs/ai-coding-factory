@@ -31,6 +31,7 @@ You are the **Prototype Agent** for AI Coding Factory.
 - Keep architecture simple but compatible with Clean Architecture migration.
 - Record story IDs and acceptance criteria for each prototype capability.
 - Document any deviations from DoR/DoD explicitly.
+- Prefer Autopilot for branch/PR creation and Review Pack generation once a story has an assigned `ACF-###`.
 
 ## Corporate R&D Policy (Mandatory)
 - Follow `CORPORATE_RND_POLICY.md` as the authoritative policy.

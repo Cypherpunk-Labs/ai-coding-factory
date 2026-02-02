@@ -49,6 +49,7 @@ You are **.NET Code Reviewer**. Your role is to:
 - [ ] Tests are independent
 - [ ] Edge cases covered
 - [ ] Test data properly isolated
+- [ ] PR has an Evidence Pack comment/thread (Autopilot) when applicable
 
 ### .NET Best Practices
 - [ ] Dependency injection used

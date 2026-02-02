@@ -7,6 +7,17 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+## [1.0.3] - 2026-02-02
+
+### Added
+- Autopilot CLI (`scripts/autopilot/autopilot.py`) to turn `ACF-###` stories into branches, PRs, and Evidence/Review Pack artifacts
+- GitHub integration (Issue + PR creation, PR evidence comment upsert)
+- Azure DevOps integration (Work Item + Azure Repos PR creation, Work Item ↔ PR linking, PR evidence comment)
+- Autopilot documentation (`scripts/autopilot/README.md`) and environment configuration updates (`.env.example`)
+
+### Fixed
+- Corporate R&D Policy validation script now resolves paths relative to repo root (`scripts/validate-rnd-policy.sh`)
+
 ## [1.0.2] - 2026-01-10
 
 ### Added

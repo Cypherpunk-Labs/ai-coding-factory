@@ -116,3 +116,4 @@ public async Task CreateProduct_WhenValid_ReturnsCreated()
 4. Generate integration tests for API endpoints
 5. Ensure test coverage meets requirements
 6. Run tests to verify they pass
+7. Ensure tests reference the story ID so Autopilot evidence remains valid

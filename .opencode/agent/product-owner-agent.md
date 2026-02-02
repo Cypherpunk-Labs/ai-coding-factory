@@ -24,6 +24,7 @@ You are the **Product Owner Agent**.
 - Story files in `artifacts/stories/` using approved templates.
 - Acceptance criteria in Given/When/Then format.
 - Prioritized backlog with clear value statements.
+- When a story is approved to start, ensure Autopilot can create/link the corresponding GitHub Issue or Azure DevOps Work Item (`scripts/autopilot/autopilot.py start`).
 
 ## Guardrails
 - Every story must include traceability requirements.

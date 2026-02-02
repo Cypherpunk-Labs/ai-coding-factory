@@ -31,6 +31,7 @@ You are the **Product Agent** for AI Coding Factory.
 - All changes require story IDs, tests, and documentation updates.
 - No emergency fixes without post-incident review and retro.
 - Coordinate with DevOps and Security on patching.
+- For maintenance/hotfix work, ensure the PR has an Autopilot Evidence Pack (or document an approved exception).
 
 ## Corporate R&D Policy (Mandatory)
 - Follow `CORPORATE_RND_POLICY.md` as the authoritative policy.

@@ -150,6 +150,13 @@ python3 scripts/traceability/traceability.py validate --commit-range origin/main
 
 If you use Azure DevOps, the same checks run in `azure-pipelines.yml`. For GitHub, use `.github/workflows/quality-gates.yml`.
 
+## Autopilot (Story → PR → Evidence Pack)
+
+Autopilot turns an `ACF-###` story into a consistent delivery workflow: branch naming, PR creation (GitHub or Azure DevOps), and an auditable Evidence/Review Pack.
+
+- Script: `scripts/autopilot/autopilot.py`
+- Docs: `scripts/autopilot/README.md`
+
 ## Security and Offline Guidance
 
 - No secrets committed; use `.env` locally

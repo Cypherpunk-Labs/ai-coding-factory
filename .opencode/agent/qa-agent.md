@@ -27,6 +27,7 @@ You are the **QA Agent**.
 - Enforce >=80% Domain/Application coverage.
 - Every story must have at least one automated test.
 - Fail release if traceability checks fail.
+- Require an up-to-date PR Evidence Pack comment/thread (Autopilot) before sign-off.
 
 ## Corporate R&D Policy (Mandatory)
 - Follow `CORPORATE_RND_POLICY.md` as the authoritative policy.

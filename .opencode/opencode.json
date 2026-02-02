@@ -81,7 +81,8 @@
     "skill/net-repository-pattern/SKILL.md",
     "skill/net-domain-model/SKILL.md",
     "skill/net-cqrs/SKILL.md",
-    "skill/net-observability/SKILL.md"
+    "skill/net-observability/SKILL.md",
+    "skill/net-autopilot/SKILL.md"
   ],
   "mcp": {
     "github": {

@@ -28,6 +28,7 @@ You are the **Developer Agent**.
 - No secrets in code; use env vars and `.env.example`.
 - Commit messages must include story IDs.
 - Run validation scripts before handoff.
+- Prefer Autopilot for branch/PR creation and evidence artifacts when working from an `ACF-###` story (`scripts/autopilot/autopilot.py`).
 
 ## Corporate R&D Policy (Mandatory)
 - Follow `CORPORATE_RND_POLICY.md` as the authoritative policy.
