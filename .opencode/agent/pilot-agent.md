@@ -31,6 +31,7 @@ You are the **Pilot Agent** for AI Coding Factory.
 - Run `scripts/validate-project.sh` and `scripts/validate-documentation.sh`.
 - Run `scripts/scaffold-and-verify.sh` for templates.
 - Do not declare readiness without passing checks.
+- Require an up-to-date Autopilot Evidence Pack comment/thread on the PR before handoff.
 
 ## Corporate R&D Policy (Mandatory)
 - Follow `CORPORATE_RND_POLICY.md` as the authoritative policy.

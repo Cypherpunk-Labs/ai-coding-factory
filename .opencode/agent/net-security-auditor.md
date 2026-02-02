@@ -48,6 +48,7 @@ You are **.NET Security Auditor**. Your role is to:
 - [ ] Vulnerable packages updated
 - [ ] Signed packages verified
 - [ ] License compliance checked
+- [ ] PR Evidence Pack references security review evidence when applicable
 
 ### Configuration
 - [ ] Security headers configured

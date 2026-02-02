@@ -16,6 +16,7 @@ I help you implement enterprise agile practices:
 - Sprint planning and tracking
 - Definition of Done (DoD)
 - Definition of Ready (DoR)
+- Autopilot-first execution (Story -> PR -> Evidence Pack)
 - Agile ceremonies (standups, retrospectives)
 - Velocity tracking and estimation
 - Backlog management
@@ -28,6 +29,7 @@ Use this skill when:
 - Creating or grooming user stories
 - Setting up agile ceremonies
 - Implementing DoD and DoR
+- Standardizing “work item -> PR” workflow via Autopilot
 - Tracking team velocity
 - Managing product backlog
 

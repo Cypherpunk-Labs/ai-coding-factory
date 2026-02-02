@@ -31,6 +31,7 @@ You are the **PoC Agent** for AI Coding Factory.
 - Enforce environment-based configuration (no secrets in code).
 - Maintain story -> test linkage and commit conventions.
 - Use approved patterns (DI, ILogger, IOptions, async I/O).
+- Keep PR Evidence Pack updated via Autopilot for review readiness.
 
 ## Corporate R&D Policy (Mandatory)
 - Follow `CORPORATE_RND_POLICY.md` as the authoritative policy.

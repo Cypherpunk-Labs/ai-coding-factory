@@ -29,6 +29,10 @@ artifacts/
 !artifacts/traceability/**
 !artifacts/stories/
 !artifacts/stories/**
+!artifacts/autopilot/
+!artifacts/autopilot/**
+!artifacts/review-pack/
+!artifacts/review-pack/**
 !.opencode/templates/artifacts/
 !.opencode/templates/artifacts/**
 
@@ -186,3 +190,7 @@ artifacts/*
 !artifacts/stories/**
 !.opencode/templates/artifacts/
 !.opencode/templates/artifacts/**
+
+# Python cache
+__pycache__/
+*.pyc

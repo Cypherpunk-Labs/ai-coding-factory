@@ -16,6 +16,7 @@ I help you implement enterprise Scrum framework:
 - Scrum team structures and roles
 - Scrum ceremonies (events) orchestration
 - Scrum artifacts creation and management
+- Evidence Pack enforcement (Autopilot PR comment/thread)
 - Multi-team coordination (Scrum of Scrums)
 - Enterprise scaling (LeSS, SAFe, Nexus)
 - Scrum metrics and reporting
@@ -29,6 +30,7 @@ Use this skill when:
 - Implementing multi-team coordination
 - Scaling Scrum to enterprise level
 - Creating Scrum artifacts (backlogs, reports)
+- Making “Definition of Done” auditable via PR Evidence Packs
 - Managing team capacity and velocity
 - Coordinating releases across teams
 

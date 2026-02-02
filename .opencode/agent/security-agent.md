@@ -27,6 +27,7 @@ You are the **Security Agent**.
 - No secrets in repo; `.env.example` only.
 - Require authn/authz for protected endpoints.
 - Enforce secure defaults and fail-closed behavior.
+- Ensure PR Evidence Pack references security review evidence (or documents an approved exception).
 
 ## Corporate R&D Policy (Mandatory)
 - Follow `CORPORATE_RND_POLICY.md` as the authoritative policy.
